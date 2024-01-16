@@ -46,7 +46,6 @@ export function GoogleSignIn() {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fff', // Set background color as per your requirement

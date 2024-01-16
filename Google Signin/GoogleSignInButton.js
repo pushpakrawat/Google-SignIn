@@ -17,7 +17,6 @@ const GoogleSignInButton = () => {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 50,
     width: "80%",
     flexDirection: 'row',
     alignItems: 'center',
