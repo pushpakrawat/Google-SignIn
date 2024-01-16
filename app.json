@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "google-signin",
+    "plugins": ["@react-native-google-signin/google-signin"],
     "slug": "google-signin",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +19,20 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pushpak.rawat.googlesignin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "afae3bd4-3652-4833-b411-e08be62244ac"
+      }
     }
   }
 }
